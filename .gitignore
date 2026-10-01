@@ -1,0 +1,27 @@
+# Virtual environment
+web_extension/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node / Extension
+node_modules/
+.output/
+.wxt/
+dist/
+
+# Backend runtime data & secrets
+.env
+backend/.env
+extension/.env
+data/
+backend/data/
+*.db
+chroma/
+
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
